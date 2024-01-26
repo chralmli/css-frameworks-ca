@@ -1,0 +1,145 @@
+<!-- Profile page -->
+<!-- Feed page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Page</title>
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="/css-frameworks-ca/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="/css-frameworks-ca/src/css/index.css">
+</head>
+<body>
+        <!-- Profile Header -->
+        <div class="profile-hero bg-dark text-white text-center py-5">
+            <div class="container hero-content">
+                <img src="/css-frameworks-ca/src/images/iron-crew-profile.png" alt="Profile Image" class="profile-image rounded-circle mb-3">
+                <h2 class="username">Leo</h2>
+                <p class="user-bio">Passionate about fitness and well-being. On a journey to break barriers and set new personal records. Here to inspire and be inspired. #HealthEnthusiast #GymLover</p>
+                <!-- placeholder for progress bar -->
+    
+                <!-- Sidebar Toggle button -->
+                <button class="btn btn-primary toggle-sidebar position-absolute">Following/Followers</button>
+            </div>
+        </div>
+
+        <!-- User Posts Tab -->
+        <div class="container my-4">
+            <div class="user-posts mb-4">
+                <h3>My Posts</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card post-card">
+                            <img src="../src/images/ironcrew-post.png" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Journey Begins</h5>
+                                <p class="card-text">Starting my fitness journey, excited to see the progress!</p>
+                                <div class="post-meta">
+                                    <small class="text-muted">Posted on Jan 1, 2024</small>
+                                    <div class="post-reactions">
+                                        <span class="me-2"><i class="bi bi-hand-thumbs-up"></i>120</span>
+                                        <span><i class="bi bi-chat"></i>30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card post-card">
+                            <img src="../src/images/ironcrew-post.png" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Journey Begins</h5>
+                                <p class="card-text">Starting my fitness journey, excited to see the progress!</p>
+                                <div class="post-meta">
+                                    <small class="text-muted">Posted on Jan 1, 2024</small>
+                                    <div class="post-reactions">
+                                        <span class="me-2"><i class="bi bi-hand-thumbs-up"></i>120</span>
+                                        <span><i class="bi bi-chat"></i>30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card post-card">
+                            <img src="../src/images/ironcrew-post.png" class="card-img-top" alt="Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Journey Begins</h5>
+                                <p class="card-text">Starting my fitness journey, excited to see the progress!</p>
+                                <div class="post-meta">
+                                    <small class="text-muted">Posted on Jan 1, 2024</small>
+                                    <div class="post-reactions">
+                                        <span class="me-2"><i class="bi bi-hand-thumbs-up"></i>120</span>
+                                        <span><i class="bi bi-chat"></i>30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- Following and followers section -->
+        <div class="follow-list-sidebar">
+            <div class="sidebar-content">
+                <h4>Following</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">User 1</li>
+                    <li class="list-group-item">User 2</li>
+                    <li class="list-group-item">User 3</li>
+                    <li class="list-group-item">User 4</li>
+                </ul>
+                <h4>Followers</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">User 1</li>
+                    <li class="list-group-item">User 2</li>
+                    <li class="list-group-item">User 3</li>
+                    <li class="list-group-item">User 4</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Interactive Stats Panel -->
+        <div class="stats-panel container my-4">
+            <div class="row">
+                <div class="col-md-4 stat">
+                    <i class="fas fa-dumbbell"></i>
+                    Total Workouts Completed: 150
+                </div>
+                <div class="col-md-4 stat">
+                    <i class="fas fa-clock"></i>
+                    Total Hours Trained: 200
+                </div>
+                <div class="col-md-4 stat">
+                    <i class="fas fa-chart-line"></i>
+                    Strength Growth: 5% increase
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal Achievements Showcase -->
+        <div class="achievements-carousel container my-4">
+            <h4 class="mb-3">Achievements</h4>
+        </div>
+
+        <!-- Actionable Sidebar -->
+        <div class="sidebar d-none d-lg-block">
+
+        </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.querySelector('.toggle-sidebar').addEventListener('click', function() {
+            document.querySelector('.follow-list-sidebar').classList.toggle('sidebar-visible');
+        })
+    </script>
+</body>
+</html>

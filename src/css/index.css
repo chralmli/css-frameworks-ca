@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap");
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #0d0d0d;
+  font-family: "Anton", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Anton", sans-serif;
+  color: #0d0d0d;
+}
+
+h4, h5 {
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color: #ec4d1d;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #c53b11;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #ec4d1d;
+}
+.nav-tabs .nav-item .nav-link {
+  color: #ffffff;
+}
+.nav-tabs .nav-item .nav-link:hover {
+  color: #ec4d1d;
+}
+.nav-tabs .nav-item .nav-link.active {
+  color: #ec4d1d;
+  background-color: #0d0d0d;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #ec4d1d;
+  color: #ffffff;
+}
+.form-control:focus {
+  border-color: #279c9c;
+  box-shadow: none;
+}
+
+.form-label {
+  color: #ec4d1d;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15px;
+}
+
+.feed-page .search-sort-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.feed-page .posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.profile-hero {
+  position: relative;
+  background-color: #0d0d0d;
+}
+.profile-hero .profile-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #ec4d1d;
+  object-fit: cover;
+}
+.profile-hero .username {
+  font-size: 2.5rem;
+  color: #ec4d1d;
+  margin-top: 0.5rem;
+}
+.profile-hero .user-bio {
+  font-size: 1rem;
+  color: #279c9c;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.profile-hero .btn-primary {
+  background-color: #ec4d1d;
+  border: none;
+  color: #0d0d0d;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.profile-hero .btn-primary:hover {
+  background-color: #c53b11;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.profile-hero .toggle-sidebar {
+  background-color: #ec4d1d;
+  border-color: #ec4d1d;
+}
+.profile-hero .toggle-sidebar:hover {
+  background-color: #c53b11;
+}
+.profile-hero .toggle-sidebar:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.user-posts .post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.user-posts .post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.user-posts .post-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.user-posts .post-card .card-body card-title {
+  color: #ec4d1d;
+}
+.user-posts .post-card .card-body .post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-posts .post-card .card-body .post-meta small {
+  font-style: italic;
+}
+.user-posts .post-card .card-body .post-meta .post-reactions span {
+  display: inline-flex;
+  align-items: center;
+}
+.user-posts .post-card .card-body .post-meta .post-reactions span svg {
+  fill: #0d0d0d;
+}
+
+.list-group-item {
+  background-color: #272727;
+  color: #ec4d1d;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+.list-group-item:hover {
+  background-color: #333333;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .list-group-item {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.sidebar-content h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #ec4d1d;
+}
+
+.bi {
+  font-size: 1.5rem;
+  color: #0d0d0d;
+  margin-right: 0.5rem;
+}
+
+.stats-panel .stat {
+  text-align: center;
+  color: #0d0d0d;
+  background-color: #31c5c5;
+  padding: 1rem;
+  width: calc(32.64% - 0.5rem);
+  margin: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.stats-panel i {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.posts-grid h3 {
+  color: #ec4d1d;
+}
+
+.community-section h4 {
+  color: #ec4d1d;
+}
+
+.achievements-carousel h4 {
+  color: #ec4d1d;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    padding: 0;
+  }
+}
+
+.background-image-holder {
+  position: relative;
+  background: url(../images/ironcrew-muscle-bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.auth-form-col, .motivational-mobile {
+  max-width: 400px;
+  background-color: rgba(13, 13, 13, 0.7);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(13, 13, 13, 0.1);
+}
+
+.auth-form-col {
+  width: 100%;
+  max-width: 400px;
+}
+
+.motivational-line {
+  font-size: 5.5rem;
+  color: #ec4d1d;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .motivational-line {
+    font-size: 3.5rem;
+  }
+}
+
+.motivational-desktop {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  max-width: 600px;
+}
+@media (max-width: 768px) {
+  .motivational-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .motivational-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth-form-col {
+    order: 2;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.follow-list-sidebar {
+  position: fixed;
+  right: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #0d0d0d;
+  transition: right 0.3s ease-in-out;
+}
+.follow-list-sidebar .sidebar-content {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+.follow-list-sidebar.sidebar-visible {
+  right: 0;
+}
+
+.full-height {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
