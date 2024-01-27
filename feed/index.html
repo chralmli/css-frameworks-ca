@@ -4,32 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authentication Page</title>
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <!-- Link to Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css-frameworks-ca/node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     <!-- Link to custom CSS -->
-    <link rel="stylesheet" href="/css-frameworks-ca/src/css/styles.css">
+    <link rel="stylesheet" href="/css-frameworks-ca/src/css/index.css">
 </head>
 <body>
-    <div class="feed-page">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">IronCrew</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../profile/index.html" class="nav-link">Profile Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4 feed-page">
         <div class="search-sort-bar">
             <!-- Search Form -->
-            <form class="search-form">
-                <input type="text" class="form-control" placeholder="Search posts...">
+            <form class="d-flex flex-grow-1 me-2 search-form">
+                <input type="text" class="form-control me-2" placeholder="Search posts...">
                 <button type="submit" class="btn btn-primary">Search</button>
             </form>
             <!-- Sort -->
             <div class="sort-options">
-                <button class="btn btn-secondary">Latest</button>
+                <button class="btn btn-secondary me-1">Latest</button>
                 <button class="btn btn-secondary">Popular</button>
             </div>
         </div>
 
         <!-- Posts Grid -->
-        <div class="posts-grid">
+        <div class="row posts-grid">
+            <div class="post mb-4">
+                <div class="post-img-container">
+                    <img src="../src/images/anastase-maragos-aclkvEMIfL8-unsplash.jpg" alt="Post Thumbnail" class="post-img">
+                </div>
+                <div class="post-content">
+                    <h5 class="post-title">Morning Workout</h5>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                    <div class="post-meta">
+                        <small class="text-muted">Posted 2 hours ago</small>
+                        <div class="post-interactions">
+                            <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
+                            <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post mb-4">
+                <div class="post-img-container">
+                    <img src="../src/images/example-post-img1.png" alt="Post Thumbnail" class="post-img">
+                </div>
+                <div class="post-content">
+                    <h5 class="post-title">Evening Lift</h5>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus quasi recusandae.</p>
+                    <div class="post-meta">
+                        <small class="text-muted">Posted 2 hours ago</small>
+                        <div class="post-interactions">
+                            <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
+                            <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post mb-4">
+                <div class="post-img-container">
+                    <img src="../src/images/example-post-img2.png" alt="Post Thumbnail" class="post-img">
+                </div>
+                <div class="post-content">
+                    <h5 class="post-title">Meal Prep</h5>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti quasi eveniet iste itaque sed odio sint.</p>
+                    <div class="post-meta">
+                        <small class="text-muted">Posted 2 hours ago</small>
+                        <div class="post-interactions">
+                            <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
+                            <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
         <!-- New Post Form -->
+        <div class="new-post-form mt-4">
+            <h2>Create New Post</h2>¨
+            <form>
+
+            </form>
+        </div>
 
     </div>
     <!-- Bootstrap Bundle with Popper -->

@@ -35,7 +35,7 @@
 
 .motivational-line {
     font-size: 5.5rem;
-    color: $color-accent-1;
+    color: $color-accent-2;
     font-weight: bold;
 
     @media (max-width: $breakpoint-md) {
@@ -67,7 +67,7 @@
 }
 
 .container {
-    max-width: 960px;
+    width: auto;
 
     @media (min-width: 1200px) {
         max-width: 1140px;

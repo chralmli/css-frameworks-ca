@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authentication Page</title>
+    <title>Profile Page</title>
     <!-- FontAwesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <!-- Link to Bootstrap CSS -->
@@ -14,6 +14,25 @@
     <link rel="stylesheet" href="/css-frameworks-ca/src/css/index.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">IronCrew</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../feed/index.html" class="nav-link">Feed Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         <!-- Profile Header -->
         <div class="profile-hero bg-dark text-white text-center py-5">
             <div class="container hero-content">
@@ -29,7 +48,7 @@
 
         <!-- User Posts Tab -->
         <div class="container my-4">
-            <div class="user-posts mb-4">
+            <div class="user-posts">
                 <h3>My Posts</h3>
                 <div class="row">
                     <div class="col-md-4 mb-3">
@@ -108,15 +127,15 @@
         <!-- Interactive Stats Panel -->
         <div class="stats-panel container my-4">
             <div class="row">
-                <div class="col-md-4 stat">
+                <div class="col-12 col-md-4 stat">
                     <i class="fas fa-dumbbell"></i>
                     Total Workouts Completed: 150
                 </div>
-                <div class="col-md-4 stat">
+                <div class="col-12 col-md-4 stat">
                     <i class="fas fa-clock"></i>
                     Total Hours Trained: 200
                 </div>
-                <div class="col-md-4 stat">
+                <div class="col-12 col-md-4 stat">
                     <i class="fas fa-chart-line"></i>
                     Strength Growth: 5% increase
                 </div>
@@ -134,7 +153,7 @@
         </div>
 
     <!-- Bootstrap Bundle with Popper -->
-    <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script scr="/css-frameworks-ca/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         document.querySelector('.toggle-sidebar').addEventListener('click', function() {
