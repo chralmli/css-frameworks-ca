@@ -29,18 +29,16 @@
     }
 
     .navbar-collapse {
-        justify-content: end;
+        justify-content: flex-end;
     }
 }
 
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav {
-        display: flex;
-        align-items: center;
-
-        .nav-item {
-            margin-right: 0.5rem;
-            display:  inline-block;
+    .navbar-expand-lg {
+         .navbar-nav {
+            .nav-item {
+                margin-right: 0.5rem;
+            }
         }
     }
 }

@@ -47,17 +47,12 @@ h4, h5 {
   color: #31c5c5;
 }
 .navbar .navbar-collapse {
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 @media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav {
-    display: flex;
-    align-items: center;
-  }
   .navbar-expand-lg .navbar-nav .nav-item {
     margin-right: 0.5rem;
-    display: inline-block;
   }
 }
 .btn-primary {
