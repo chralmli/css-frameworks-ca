@@ -48,6 +48,13 @@
         <!-- Posts Grid -->
         <div class="row posts-grid">
             <div class="post mb-4 py-2">
+                <div class="post-header">
+                    <img src="../src/images/iron-crew-profile.png" alt="Profile Picture" class="post-profile-pic">
+                    <div class="post-user-info">
+                        <span class="username">Username</span>
+                        <small class="text-muted">Posted 2 hours ago</small>
+                    </div>
+                </div>
                 <div class="post-img-container">
                     <img src="../src/images/anastase-maragos-aclkvEMIfL8-unsplash.jpg" alt="Post Thumbnail" class="post-img">
                 </div>
@@ -55,7 +62,6 @@
                     <h5 class="post-title">Morning Workout</h5>
                     <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
                     <div class="post-meta">
-                        <small class="text-muted">Posted 2 hours ago</small>
                         <div class="post-interactions">
                             <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
                             <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
@@ -65,14 +71,22 @@
             </div>
 
             <div class="post mb-4 py-2">
+                <div class="post-header">
+                    <img src="../src/images/iron-crew-profile.png" alt="Profile Picture" class="post-profile-pic">
+                    <div class="post-user-info">
+                        <span class="username">Username</span>
+                        <small class="text-muted">Posted yesterday</small>
+                    </div>
+                </div>
                 <div class="post-img-container">
                     <img src="../src/images/example-post-img1.png" alt="Post Thumbnail" class="post-img">
                 </div>
                 <div class="post-content">
-                    <h5 class="post-title">Evening Lift</h5>
+                    <div class="title-and-posted">
+                        <h5 class="post-title">Evening Lift</h5>
+                    </div>
                     <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur delectus quasi recusandae.</p>
                     <div class="post-meta">
-                        <small class="text-muted">Posted 2 hours ago</small>
                         <div class="post-interactions">
                             <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
                             <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
@@ -82,14 +96,22 @@
             </div>
 
             <div class="post mb-4 py-2">
+                <div class="post-header">
+                    <img src="../src/images/iron-crew-profile.png" alt="Profile Picture" class="post-profile-pic">
+                    <div class="post-user-info">
+                        <span class="username">Username</span>
+                        <small class="text-muted">Posted 3 days ago</small>
+                    </div>
+                </div>
                 <div class="post-img-container">
                     <img src="../src/images/example-post-img2.png" alt="Post Thumbnail" class="post-img">
                 </div>
                 <div class="post-content">
-                    <h5 class="post-title">Meal Prep</h5>
+                    <div class="title-and-posted">
+                        <h5 class="post-title">Meal Prep</h5>
+                    </div>
                     <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti quasi eveniet iste itaque sed odio sint.</p>
                     <div class="post-meta">
-                        <small class="text-muted">Posted 2 hours ago</small>
                         <div class="post-interactions">
                             <span class="likes"><i class="fas fa-thumbs-up"></i> 120 Likes</span>
                             <span class="comments"><i class="fas fa-comment"></i>30 Comments</span>
@@ -97,20 +119,48 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <!-- New Post Form -->
-        <div class="new-post-form mt-4">
-            <h2>Create New Post</h2>¨
-            <form>
+        <!-- Floating Button -->
+        <button id="newPostButton" class="btn btn-primary floating-action-button">
+            <i class="fas fa-plus"></i> New Post
+        </button>
 
-            </form>
+        <!-- Modal for New Post Form -->
+        <div id="newPostModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Create New Post</h2>
+                <form>
+                    <div class="mb-3 form-group">
+                        <label for="postTitle" class="form-label">Title</label>
+                        <input type="text" class="form-control" id="postTitle" placeholder="Enter post title">
+                    </div>
+
+                    <!-- Content Field -->
+                    <div class="mb-3 form-group">
+                        <label for="postContent" class="form-label">Content</label>
+                        <textarea class="form-control" id="postContent" rows="3">What's on your mind?</textarea>
+                    </div>
+
+                    <!-- Image Upload -->
+                    <div class="mb-3 form-group">
+                        <label for="postImage" class="form-label">Image (optional)</label>
+                        <input type="file" class="form-control" id="postImage">
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="button-group">
+                        <button type="submit" class="btn btn-primary">Post</button>
+                    </div>
+                </form>
+            </div>
         </div>
-
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
+
+    <!-- Custom Script -->
+    <script src="../src/js/postFormModal.js"></script>
 </body>
 </html>

@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 
 // global styles
+* {
+    box-sizing: border-box;
+}
 html, body {
     height: 100%;
     margin: 0;
