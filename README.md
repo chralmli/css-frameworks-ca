@@ -1,9 +1,7 @@
-# css-frameworks-ca
-
 # IronCrew Social Media App - CSS Frameworks CA
 ## About IronCrew
 
-IronCrew is a social media platform designed specifically for fitness enthusiasts and gym-goers. Our app connects like-minded individuals, allowing them to share their workout experiences, fitness tips, and motivational stories.
+IronCrew is a social media platform designed specifically for fitness enthusiasts and gym-goers. This app connects like-minded individuals, allowing them to share their workout experiences, fitness tips, and motivational stories.
 
 ### Key Features
 
