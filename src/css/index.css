@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap");
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
-
 * {
   box-sizing: border-box;
 }
@@ -13,16 +12,22 @@ html, body {
 
 body {
   color: #0d0d0d;
-  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   color: #0d0d0d;
 }
 
 h4, h5 {
   letter-spacing: 1px;
+}
+
+button,
+h3, h4, h5,
+span {
+  letter-spacing: 0.7px;
 }
 
 .navbar {
@@ -33,6 +38,7 @@ h4, h5 {
 .navbar .navbar-brand {
   color: #ec4d1d;
   font-weight: bold;
+  font-size: 1.7rem;
 }
 .navbar .navbar-brand:hover {
   color: #f0724c;
@@ -43,6 +49,7 @@ h4, h5 {
 .navbar .navbar-nav .nav-item .nav-link {
   color: #279c9c;
   transition: color 0.3s ease-out;
+  font-size: 1.2rem;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #31c5c5;
@@ -139,7 +146,7 @@ h4, h5 {
   border: 1px solid #279c9c;
   border-radius: 0.25rem;
   padding: 4px 8px;
-  font-weight: 800;
+  font-weight: 300;
   transition: color 0.3s ease background-color 0.3s;
 }
 .feed-page .search-sort-bar .sort-options button:hover {
@@ -406,7 +413,7 @@ h4, h5 {
   background-color: #ec4d1d;
   border: none;
   color: #0d0d0d;
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
   font-weight: bold;
   border-radius: 0.5rem;
@@ -421,6 +428,8 @@ h4, h5 {
 .profile-hero .toggle-sidebar {
   background-color: #ec4d1d;
   border-color: #ec4d1d;
+  font-weight: normal;
+  font-size: 1.4rem;
 }
 .profile-hero .toggle-sidebar:hover {
   background-color: #c53b11;
