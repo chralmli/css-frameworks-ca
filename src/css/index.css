@@ -36,12 +36,12 @@ span {
   padding: 0.5rem 1rem;
 }
 .navbar .navbar-brand {
-  color: #ec4d1d;
+  color: #d03e00;
   font-weight: bold;
   font-size: 1.7rem;
 }
 .navbar .navbar-brand:hover {
-  color: #f0724c;
+  color: #ff4f04;
 }
 .navbar .navbar-toggler {
   border-color: #279c9c;
@@ -64,11 +64,11 @@ span {
   }
 }
 .btn-primary {
-  background-color: #ec4d1d;
+  background-color: #d03e00;
   border: none;
 }
 .btn-primary:hover {
-  background-color: #c53b11;
+  background-color: #9d2f00;
 }
 
 .btn-secondary {
@@ -82,18 +82,18 @@ span {
 }
 
 .nav-tabs {
-  border-bottom: 2px solid #ec4d1d;
+  border-bottom: 2px solid #d03e00;
 }
 .nav-tabs .nav-item .nav-link {
   color: #ffffff;
 }
 .nav-tabs .nav-item .nav-link:hover {
-  color: #ec4d1d;
+  color: #d03e00;
 }
 
 .form-control {
   background-color: transparent;
-  border: 1px solid #ec4d1d;
+  border: 1px solid #d03e00;
   color: #ffffff;
 }
 .form-control:focus {
@@ -129,13 +129,13 @@ span {
   padding: 0.5rem;
 }
 .feed-page .search-sort-bar .search-form button {
-  background-color: #ec4d1d;
+  background-color: #d03e00;
   border: none;
   border-radius: 0.25rem;
   padding: 4px 8px;
 }
 .feed-page .search-sort-bar .search-form button:hover {
-  background-color: #c53b11;
+  background-color: #9d2f00;
 }
 .feed-page .search-sort-bar .sort-options {
   display: flex;
@@ -230,7 +230,7 @@ span {
   font-style: italic;
 }
 .feed-page .posts-grid .post .post-content .post-title {
-  color: #ec4d1d;
+  color: #1d7373;
   font-size: 1.2rem;
   font-family: "Oswald", sans-serif;
   margin-bottom: 0.5rem;
@@ -289,7 +289,7 @@ span {
   font-weight: bold;
 }
 .feed-page .modal .modal-content .close:hover, .feed-page .modal .modal-content .close:focus {
-  color: #ec4d1d;
+  color: #d03e00;
   text-decoration: none;
   cursor: pointer;
 }
@@ -298,7 +298,7 @@ span {
 }
 .feed-page .modal .modal-content .form-control {
   border-radius: 5px;
-  border: 1px solid #c53b11;
+  border: 1px solid #9d2f00;
 }
 .feed-page .modal .modal-content .form-control:focus {
   border-color: #279c9c;
@@ -338,7 +338,7 @@ span {
   color: #0d0d0d;
 }
 .feed-page .modal .modal-content form .form-group .form-control:hover {
-  border-color: #ec4d1d;
+  border-color: #d03e00;
 }
 .feed-page .modal .modal-content form .form-group .form-control:focus {
   border-color: #279c9c;
@@ -349,7 +349,7 @@ span {
   color: #404040;
 }
 .feed-page .modal .modal-content form .btn-primary {
-  background-color: #ec4d1d;
+  background-color: #d03e00;
   color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
@@ -358,10 +358,10 @@ span {
   transition: background-color 0.3s ease;
 }
 .feed-page .modal .modal-content form .btn-primary:hover {
-  background-color: #c53b11;
+  background-color: #9d2f00;
 }
 .feed-page .modal .modal-content form .btn-primary:active {
-  background-color: #962d0d;
+  background-color: #6a2000;
 }
 
 .floating-action-button {
@@ -369,7 +369,7 @@ span {
   bottom: 20px;
   right: 20px;
   z-index: 100;
-  background-color: #ec4d1d;
+  background-color: #d03e00;
   color: #0d0d0d;
   border-radius: 10px;
   padding: 0.75rem;
@@ -378,7 +378,7 @@ span {
   transition: background-color 0.3s, box-shadow 0.3s;
 }
 .floating-action-button:hover {
-  background-color: #c53b11;
+  background-color: #9d2f00;
   box-shadow: 0 4px 8px rgba(13, 13, 13, 0.4);
 }
 .floating-action-button i {
@@ -392,12 +392,12 @@ span {
 .profile-hero .profile-image {
   width: 150px;
   height: 150px;
-  border: 4px solid #ec4d1d;
+  border: 4px solid #d03e00;
   object-fit: cover;
 }
 .profile-hero .username {
   font-size: 2.5rem;
-  color: #ec4d1d;
+  color: #d03e00;
   margin-top: 0.5rem;
 }
 .profile-hero .user-bio {
@@ -410,7 +410,7 @@ span {
   margin-bottom: 1.5rem;
 }
 .profile-hero .btn-primary {
-  background-color: #ec4d1d;
+  background-color: #d03e00;
   border: none;
   color: #0d0d0d;
   padding: 0.6rem 1.3rem;
@@ -426,13 +426,13 @@ span {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .profile-hero .toggle-sidebar {
-  background-color: #ec4d1d;
-  border-color: #ec4d1d;
+  background-color: #d03e00;
+  border-color: #d03e00;
   font-weight: normal;
   font-size: 1.4rem;
 }
 .profile-hero .toggle-sidebar:hover {
-  background-color: #c53b11;
+  background-color: #9d2f00;
 }
 .profile-hero .toggle-sidebar:active {
   transform: translateY(1px);
@@ -455,7 +455,7 @@ span {
   object-fit: cover;
 }
 .user-posts .post-card .card-body .card-title {
-  color: #ec4d1d;
+  color: #d03e00;
 }
 .user-posts .post-card .card-body .card-text {
   font-family: "Montserrat", sans-serif;
@@ -479,7 +479,7 @@ span {
 
 .list-group-item {
   background-color: #272727;
-  color: #ec4d1d;
+  color: #d03e00;
   border: none;
   padding: 0.75rem 1.25rem;
   margin-bottom: 0.5rem;
@@ -499,7 +499,7 @@ span {
 .sidebar-content h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  color: #ec4d1d;
+  color: #d03e00;
 }
 
 .bi {
@@ -529,13 +529,18 @@ span {
   display: block;
   margin-bottom: 0.5rem;
 }
+.stats-panel .stat-text {
+  font-size: 1.3rem;
+  letter-spacing: 0.7px;
+  margin-bottom: 0;
+}
 
 .community-section h4 {
-  color: #ec4d1d;
+  color: #d03e00;
 }
 
 .achievements-carousel h4 {
-  color: #ec4d1d;
+  color: #d03e00;
 }
 
 .container-fluid {

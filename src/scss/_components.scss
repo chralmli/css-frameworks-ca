@@ -246,7 +246,7 @@
 
                 // Post Title and Text
                 .post-title {
-                    color: $color-accent-1;
+                    color: darken($color-accent-2, 10%);
                     font-size: 1.2rem;
                     font-family: $alternative-font;
                     margin-bottom: 0.5rem;
@@ -602,6 +602,12 @@
         font-size: 2rem;
         display: block;
         margin-bottom: 0.5rem;
+    }
+
+    .stat-text {
+        font-size: 1.3rem;
+        letter-spacing: 0.7px;
+        margin-bottom: 0;
     }
 }
 
