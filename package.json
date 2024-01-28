@@ -30,6 +30,6 @@
     "bootstrap-icons": "^1.11.3",
     "icons": "^1.0.0",
     "live-server": "^1.2.2",
-    "sass": "^1.69.7"
+    "sass": "^1.70.0"
   }
 }
