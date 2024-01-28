@@ -512,8 +512,12 @@
         }
 
         .card-body {
-            card-title {
+            .card-title {
                 color: $color-accent-1;
+            }
+            
+            .card-text {
+                font-family: $secondary-font;
             }
 
             .post-meta {
@@ -521,6 +525,7 @@
                 justify-content: space-between;
                 align-items: center;
                 small {
+                    font-family: $secondary-font;
                     font-style: italic;
                 }
 

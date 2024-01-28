@@ -444,8 +444,11 @@ h4, h5 {
   height: 200px;
   object-fit: cover;
 }
-.user-posts .post-card .card-body card-title {
+.user-posts .post-card .card-body .card-title {
   color: #ec4d1d;
+}
+.user-posts .post-card .card-body .card-text {
+  font-family: "Montserrat", sans-serif;
 }
 .user-posts .post-card .card-body .post-meta {
   display: flex;
@@ -453,6 +456,7 @@ h4, h5 {
   align-items: center;
 }
 .user-posts .post-card .card-body .post-meta small {
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
 }
 .user-posts .post-card .card-body .post-meta .post-reactions span {
